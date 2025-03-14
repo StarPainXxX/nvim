@@ -1,12 +1,14 @@
 # My Neovim config
-
+## Use Operating system
+- `Ubuntu 24.04 LTS & Arch linux for wsl`
+## Config 
 - Use the lazyvim Package management
 - Add github-copilt,leetcode plugins
 - The transparent Tokyonight theme
 - Modifying Keyboard mapping
   `/nvim/lua/config/keymap`
 
-# Install
+## Install
 
 - Make a backup of your current Neovim files
 
@@ -24,7 +26,7 @@ mv ~/.cache/nvim{,.bak}
 - ` git clone https://github.com/StarPainXxX/nvim.git ~/.config`
 - `rm -rf ~/.config/nvim/.git`
 
-# Keymap Config
+## Keymap Config
 
 ```
 -- 将 jj 映射为 Esc 键
